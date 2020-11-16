@@ -3,15 +3,14 @@
 
 tucelu2 es una SPA (single page application) en desarrollo para proyecto final del programa "codo a codo".
 Por el momento posee las siguientes tecnologias:
-```
+
 -HTML
-```
+
 -CSS
-```
+
 -BOOTSTRAP
-```
+
 -JAVASCRIPT ( VUE.JS)
-```
 
 ## Project setup
 ```
