@@ -12,6 +12,9 @@ Por el momento posee las siguientes tecnologias:
 
 -JAVASCRIPT ( VUE.JS)
 
+Mirala en [Configuration Reference](https://tucelu2.netlify.app/#/).
+
+
 ## Project setup
 ```
 npm install
