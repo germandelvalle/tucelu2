@@ -1,18 +1,30 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="menu__products">
+
+    <!-- <Cabecera></Cabecera>
+    <lista></lista> -->
+    <Article
+    v-for="articulo of articulos" :key="articulo.id"
+    :articulo="articulo"
+    ></Article>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import Cabecera from '../components/Cabecera'
+// import Lista from '../components/Lista.vue'
+import Article from '@/components/Articulo'
+import {mapState} from 'vuex'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+  components:{
+    Article
+  },
+  computed: {
+    ...mapState(['articulos'])
+  },
+
 }
 </script>
